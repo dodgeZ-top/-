@@ -51,7 +51,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           # GitHub 密钥
-          ACCESS_TOKEN: ${{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}}
+          ACCESS_TOKEN: ${{ secrets.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 }}
           # GitHub Pages 读取的分支
           BRANCH: main
           # gh-pages
