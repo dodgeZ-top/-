@@ -50,6 +50,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
+          GITHUB_TOKEN: ${{secrets.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}}
           # GitHub 密钥
           ACCESS_TOKEN: ${{secrets.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}}
           # GitHub Pages 读取的分支
